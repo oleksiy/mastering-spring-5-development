@@ -20,8 +20,13 @@ public class PersonService {
         person2.setFirstName("Jane");
         person2.setLastName("Doe");
 
+        Person person3 = new Person();
+        person3.setFirstName("Alex");
+        person3.setLastName("Alex");
+
         personList.add(person);
         personList.add(person2);
+        personList.add(person3);
 
         return personList;
     }
